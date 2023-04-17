@@ -1,22 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-trying to check if pull request is working
-    </title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>trying to check if pull request is working</title>
+  </head>
+  <body>
     <header>
-        
+      <nav>
+        <ul>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact-me">Contact Me</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
+      <section id="about-me">
+        <h2>About Me</h2>
+        <p>
+          I'm Hiba Ejaz currently studying as a <i>trainee</i> at
+          <i>integrify.io</i>. I am highly motivated and dedicated towards my
+          goal and work tirelessly to become a full stack developer
+        </p>
+        <address>
+          <p>12-D ABC</p>
+          <p>XYZ Helsinki Finland 2345</p>
+          <p><tel>Phone: +358111111111</tel></p>
+          <p>
+            <a href="mailto:hiba.ejaz@integrify.com">hiba.ejaz@integrify.com</a>
+          </p>
+        </address>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>C++</li>
+        </ul>
+      </section>
+      <section id="Certifications">
+        <table>
+          <thead>
+            <tr>
+              <th>Certification</th>
+              <th>Issuing Organization</th>
+              <th>Certificates</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>CSS Essential Training</td>
+              <td>LinkedIn</td>
+              <td>
+                <figure>
+                  <img
+                    src="/image1.jpg"
+                    alt="CSS Essential Training Cerificate issued by LinkedIn"
+                  />
+                  <figcaption>CSS Essential Training Cerificate</figcaption>
+                </figure>
+              </td>
+            </tr>
+            <tr>
+              <td>HTML Essential Training</td>
+              <td>LinkedIn</td>
+              <td>
+                <figure>
+                  <img
+                    src="/image2.jpg"
+                    alt="HTML Essential Training Cerificate issued by LinkedIn"
+                  />
+                  <figcaption>HTML Essential Training Cerificate</figcaption>
+                </figure>
+              </td>
+            </tr>
+            <tr>
+              <td>Javascript Essential Training</td>
+              <td>LinkedIn</td>
+              <td>
+                <figure>
+                  <img
+                    src="/image3.jpg"
+                    alt="JavaScript Essential Training Cerificate issued by LinkedIn"
+                  />
+                  <figcaption>
+                    JavaScript Essential Training Cerificate
+                  </figcaption>
+                </figure>
+              </td>
+            </tr>
+            <tr>
+              <td>React Essential Training</td>
+              <td>LinkedIn</td>
+              <td>
+                <figure>
+                  <img
+                    src="/image4.jpg"
+                    alt="React Essential Training Cerificate issued by LinkedIn"
+                  />
+                  <figcaption>React Essential Training Cerificate</figcaption>
+                </figure>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                HTML, CSS, and Javascript: The Big Picture by Barry Luijbregts
+              </td>
+              <td>Plural Sight</td>
+              <td>
+                <figure>
+                  <img
+                    src="/image5.jpg"
+                    alt="HTML, CSS, and Javascript Cerificate issued by Plural Sight"
+                  />
+                  <figcaption>HTML, CSS, and Javascript Cerificate</figcaption>
+                </figure>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="projects">
+        <h2>My Projects</h2>
+        <article>
+          <h3>TIC-TAC-TOE</h3>
+          <p>
+            The Tic Tac Toe project is a classic game implementation in which
+            two players take turns marking spaces on a 3x3 board, aiming to get
+            three in a row horizontally, vertically, or diagonally.
+          </p>
+          <p>
+            <a href="https://github.com/Hiba-Ejaz/tic-tac-toe"
+              >Link to github repository</a
+            >
+          </p>
+        </article>
+        <article>
+          <h3>My portfolio</h3>
+          <p>The project contains my academic record and work experience</p>
+          <p>
+            <a href="https://github.com/Hiba-Ejaz/My-Portfolio"
+              >Link to github repository</a
+            >
+          </p>
+        </article>
+      </section>
+      <section>
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your Name"
+          />
 
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your Email address"
+          />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="10"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
     </main>
     <footer>
-
+      <h2>Hiba's introduction &copy; all rights reserved</h2>
     </footer>
-</body>
+  </body>
 </html>
