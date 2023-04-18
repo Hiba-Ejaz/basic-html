@@ -2,17 +2,37 @@
 
 Practice Git CLI, basic HTML elements and build short introduction about yourself.
 
-## Requirement
+## About
 
-Edit the codes in `index.html` and create a webpage to introduce yourself similar to
-[this sample](https://integrify-finland.github.io/bof-introduction-sample/)
 
-1. Make use of different tags: headings, paragraphs, link, italic, ordered list, unordered list,table, form
-2. Check out more tags that might be helpful: address, section, article, audio
-3. Make sure you do not leave unnecessary while space in your codes
-Styling is not needed for this assignment
-4. Deploy your code base into any hosting platform of your choice. Rewrite README file to describe your project with few more details.
+This is a personal webpage project that showcases information about me, including my address, skills, projects, certifications, and a form to contact me. The webpage was created using HTML5 and semantic tags to improve the accessibility of the content and enhance search engine optimization.
+
+
+Technologies Used
+HTML5
+Semantic Tags 
+ Made use of different semantic tags: headings, address, section, article, paragraphs, link, italic, ordered list, unordered list,table, form
+
+
+Deployment is made on netlify.
 
 ## Result
-Please add also link to your deployment
-![README example](readme-example.png)
+Deployment is made on netlify.
+
+[demo page](https://643df5f8cc401f429a44b6ba--gleaming-florentine-9278d2.netlify.app/)
+ 
+
+ ##Structure
+ ```
+ C:.
+│   .gitignore
+│   index.html
+│   readme-example.png
+│   README.md
+│   sample.text
+│
+├───Assignments
+│   └───fs15basicHTML1
+│       └───fs15_1-basic-html
+└───fs15_1-basic-html
+```
